@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://github.com/";//your website url
+  let target = "https://google.com/";//fallboysiangaymergoogle.com
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
